@@ -5,7 +5,7 @@ import urllib.request
 driver = webdriver.Chrome()
 driver.get("https://www.google.co.kr/imghp?hl=ko&ogbl")
 elem = driver.find_element_by_name("q")
-elem.send_keys("조코딩")
+elem.send_keys("아이유")
 elem.send_keys(Keys.RETURN)
 
 SCROLL_PAUSE_SEC = 1
